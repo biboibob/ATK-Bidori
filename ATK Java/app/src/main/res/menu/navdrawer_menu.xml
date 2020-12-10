@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navhome"
+            android:title="Home"
+            android:icon="@drawable/icon_black_home"/>
+
+        <item android:title="Features">
+
+            <menu>
+                <item
+                    android:id="@+id/dailyincome_2"
+                    android:title="Daily Income"
+                    android:icon="@drawable/icon_black_coin"/>
+
+                <item
+                    android:id="@+id/warehouse"
+                    android:title="Warehouse"
+                    android:icon="@drawable/icon_black_storage"/>
+
+            </menu>
+
+        </item>
+    </group>
+
+</menu>

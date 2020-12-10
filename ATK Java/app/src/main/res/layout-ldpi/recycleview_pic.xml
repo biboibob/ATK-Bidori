@@ -1,0 +1,23 @@
+<LinearLayout
+
+    android:layout_marginLeft="10dp"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/icon_user_in_charge"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/personName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8dp"
+        android:textColor="@color/colorPrimary"/>
+
+</LinearLayout>

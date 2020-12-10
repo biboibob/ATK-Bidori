@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:gravity="bottom|left"
+    android:padding="20dp"
+    android:background="@drawable/navheader"
+    >
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="7dp"
+        android:src="@drawable/bidologo"/>
+
+    <TextView
+        android:gravity="start"
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bidori"
+        android:textSize="16dp"
+        android:textColor="#4C44B3"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
